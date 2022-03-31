@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="seeHS">View Highscores</div>
+      <div class="timeLeft">Time left:</div>
+      <div class="timerCount">60</div>
+      <div class= "large-font">Quick Code Quiz</div>
+    </header>
+    
+    <main>
+      <section>
+        <div class="instructions"><span>Instructions:</span>
+          <p>
+        Try to answer the following code-related questions within the same limit.
+        Keep in mind that incorrect ansers will penalize your score time by 10 seconds!
+          </p> 
+          <button class="start-button" onclick="startTimer()">Start!</button>
+        </div>
+        
+      </section>
+    </main>
+    
+    <div class="quizBox">
+        <section>
+          <div id="questionOfQuiz1">
+            <span>Commonly used data DO NOT include:</span>
+            <div class="optionList">
+              <ul>
+                <li><button class="btnOp1">Strings</button></li>
+                <li><button class="btnOp2">Booleans</button></li>
+                <li><button class="btnOp3">Alerts</button></li>
+                <li><button class="btnOp4">Numbers</button></li>
+              </ul>
+              <br>
+              <button class="nextBtn">Next</button>
+              </br>
+            </div>
+          </div>
+              
+
+          <div id="questionOfQuiz2">
+            <span>The condition in an IF/ELSE statement is enclosed within...</span>
+            <div class="optionList">
+               <ul>
+                 <li><button class="btnOp1">Quotes</button></li>
+                 <li><button class="btnOp2">Curly brackets</button></li>
+                 <li><button class="btnOp3">Parentheses</button></li>
+                 <li><button class="btnOp4">Square brackets</button></li>
+                </ul>
+                <br>
+                <button class="nextBtn">Next</button>
+                </br>
+              </div>
+          </div>
+
+          <div id="questionOfQuiz3">
+            <span>Arrays in JavaScript can be used to store...</span>
+            <div class="optionList">
+              <ul>
+                <li><button class="btnOp1">Numbers and strings</button></li>
+                <li><button class="btnOp2">Other arrays</button></li>
+                <li><button class="btnOp3">Booleans</button></li>
+                <li><button class="btnOp4">All of the above</button></li>
+              </ul>
+              <br>
+                <button class="nextBtn">Next</button>
+                </br>
+              </div>
+          </div>
+
+          <div id="questionOfQuiz4">
+            <span>String values must be enclosed within...when being assigned to variables.</span>
+             <div class="optionList">
+               <ul>
+                 <li><button class="btnOp1">Commas</button></li>
+                 <li><button class="btnOp2">Curly brackets</button></li>
+                 <li><button class="btnOp3">Quotes</button></li>
+                 <li><button class="btnOp4">Parentheses</button></li>
+                </ul>
+                <br>
+                <button class="nextBtn">Next</button>
+                </br>
+              </div>
+          </div>
+        </section>
+      
+      <section>
+        <div id="quizResults">
+          <div class = "win-loss-container">
+            <div>
+            <h2>Correct: <span class="win">0 </span> </h2>
+           <h2>Wrong: <span class="lose">0</span></h2>
+            </div>
+          </div>
+        
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="registerID">Enter initials: <input type="text" value=" ">
+        <br>
+            <button class="submit">Submit</button>    
+        </br>
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

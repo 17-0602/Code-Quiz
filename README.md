@@ -31,7 +31,7 @@ The following image shows how the web application's appearance and functionality
 ![WebAppereance](assets/images/04-web-apis-homework-demo.gif)
 
 ## Deployed app
-By clicking on the following link, you can access the deployed app: <link>https://17-0602.github.io/Password-Generator/</link>
+By clicking on the following link, you can access the deployed app: <link>https://17-0602.github.io/Code-Quiz/</link>
 
 
 By clicking on the following link, you can access the repo on GitHub: <link>https://github.com/17-0602/Code-Quiz</link>
